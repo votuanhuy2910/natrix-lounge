@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --white: #fff;
+    --black: #3d3c3c;
+    --light-color: #333;
+    --light-color-elm: #6d6a6a;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar{
+    height: .5rem;
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--black);
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.bg {
+    position: relative;
+}
+
+.bg img {
+    width: 100%;
+    background-size: contain;
+    display: block;
+}
+
+.bg .header-contact {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bg .header-contact p {
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white);
+    font-weight: 300;
+}
+
+.bg .heading {
+    position: absolute;
+    top: 0;
+    text-transform: uppercase;
+    width: 1000px;
+    margin-left: 15rem;
+    border-bottom: #333 solid 3px;
+    padding-top: 2rem;
+    line-height: 7rem;
+}
+
+.bg .heading p {
+    font-size: 6rem;
+    text-align: center;
+    color: var(--black);
+}
+
+.packages {
+    width: 100%;
+    position: relative;
+}
+
+.packages .box-container {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 17rem;
+    max-width: 80%;
+    padding: 0 0 3rem 10rem;
+}
+
+.packages #whisky {
+    min-height: 0px;
+}
+
+.packages .box-container .box {
+    text-align: center;
+}
+
+.packages .box-container .whisky {
+    min-height: 0px;
+    padding: 0 5rem;
+}
+
+.packages .box-container .box img {
+    background-size: contain;
+    width: 100%;
+    height: 40rem;
+}
+
+.packages .box-container .box .desc {
+    position: relative;
+    bottom: 8rem;
+    line-height: 3rem;
+}
+
+.packages .box-container .box .desc .name,
+.packages .box-container .box .desc .liter,
+.packages .box-container .box .desc .price {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+.packages .box-container .box .desc .name,
+.packages .box-container .box .desc .liter {
+    color: var(--black);
+}
+
+.packages .box-container .box .desc .element {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: var(--light-color-elm);
+}
+
+.packages .wine {
+    border: #333 2px solid;
+    position: absolute;
+    top: 65rem;
+    width: 110rem;
+    padding-left: 13rem;
+}
+
+.packages .wine1 {
+    border: #333 2px solid;
+    position: absolute;
+    top: 93rem;
+    width: 110rem;
+    padding-left: 13rem;
+}
+
+.packages .wine2 {
+    border: #333 2px solid;
+    position: absolute;
+    top: 5rem;
+    width: 110rem;
+    padding-left: 13rem;
+}
+
+.packages .title-wine {
+    border: #333 2px solid;
+    position: absolute;
+    top: 33rem;
+    padding-left: 13rem;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.packages .wine3 {
+    border: #333 2px solid;
+    position: absolute;
+    top: 37rem;
+    width: 110rem;
+    padding-left: 13rem;
+}
+
+.packages .wine4 {
+    border: #333 2px solid;
+    position: absolute;
+    top: 58rem;
+    width: 110rem;
+    padding-left: 13rem;
+}
+
+.packages .wine5 {
+    border: #333 2px solid;
+    position: absolute;
+    top: 5rem;
+    width: 110rem;
+    padding-left: 13rem;
+}
+
+.packages .wine6 {
+    border: #333 2px solid;
+    position: absolute;
+    top: 18rem;
+    width: 110rem;
+    padding-left: 13rem;
+}
+
+.packages .wine7 {
+    border: #333 2px solid;
+    position: absolute;
+    top: 53rem;
+    width: 110rem;
+    padding-left: 13rem;
+}
+
+.packages .wine8 {
+    border: #333 2px solid;
+    position: absolute;
+    top: 77rem;
+    width: 110rem;
+    padding-left: 13rem;
+}
+
+.packages .new-wine {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    border-bottom: #333 2px solid;
+    padding-bottom: 0.5rem;
+}
+
+.packages .new-wine li {
+    font-size: 2rem;
+}
+
+.packages .new-list {
+    padding-top: 1rem;
+}
+
+.packages .new-list li {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    align-items: center;
+    letter-spacing: 4px;
+}
+
+.packages .new-list .none {
+    display: unset;
+}
+
+.packages .new-list .none p {
+    padding-bottom: 2rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.packages .new-wine li {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    align-items: center;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.packages .new-wine li .new-elm {
+    width: 80%;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+.packages .new-list li .new-elm {
+    height: 2rem;
+    line-height: 2rem;
+    width: 100%;
+}
+
+
+.packages .new-wine,
+.packages .new-list {
+    list-style-type: none;
+}
+
+.new-wine,
+.new-elm,
+.new-price {
+    text-transform: uppercase;
+}
+
+.new-price {
+    font-weight: bold;
+}
+
